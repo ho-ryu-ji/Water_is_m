@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from '../imgs/logo_white.JPG';
-import "../styles/Header.css";
+import Menu from './Menu';
+import "../styles/layouts/Header.css";
 
-export default function App(props) {
+export default function Header() {
 	return (
 		<header className="App-header">
 			<div className="logo">
 				<img src={logo} className="App-logo" alt="logo" />
 			</div>
+			<Menu className="menu"/>
 		</header>
 	);
 }
