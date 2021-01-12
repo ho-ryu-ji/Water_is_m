@@ -5,7 +5,7 @@ import "../styles/layouts/Header.css";
 
 export default function Header() {
 	return (
-		<header className="App-header">
+		<header className="App-header-left">
 			<div className="logo">
 				<img src={logo} className="App-logo" alt="logo" />
 			</div>
